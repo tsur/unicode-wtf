@@ -8,7 +8,7 @@ npm install unicode-wtf --global
 
 ## What's unicode-wtf ?
 
-> This is a just a little toy for having fun with your workmates and friends. Look at their faces after opening its code editor !!
+> This is a just a little toy for having fun with your workmates and friends. Look at their faces after opening its code editor !!, and please, do not forget to restore it back.
 
 By defaul, unicode-wtf replaces all semicolons with unicode greek question mark, which is pretty similar to the actual semicolon, only that javascript interprets will complaint about it (o-O) !
 
@@ -31,7 +31,7 @@ This is just for fun, so please, do not forget to cure your targets back !!!!, j
 After it is installed, use  ```unicode-wtf <target> <unicode> <string_in_target> ``` as in the examples below.
 
 ```bash
-# running with no parameters, it replaces semicolons in all .js files in current dir (*.js) with greek question marks 
+# replaces semicolons in all .js files in current dir (*.js) with greek question marks 
 $> unicode-wtf
 ```
 
@@ -39,7 +39,7 @@ $> unicode-wtf
 # replaces myfile.js semicolons with monkey faces
 $> unicode-wtf myfile.js 🐵 
 # cure it back
-$> unicode-wtf myfile.js 🐵  --cure
+$> unicode-wtf myfile.js 🐵 --cure
 ```
 
 ```bash
