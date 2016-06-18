@@ -1,0 +1,21 @@
+{
+  "name": "unicode-wtf",
+  "version": "0.0.1",
+  "description": "Funny unicode file replacer",
+  "main": "dist/unicode-wtf.js",
+  "bin": "dist/cli.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": ""
+  },
+  "author": "Zuri Pabon <zurisadai.pabon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.0.4",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
